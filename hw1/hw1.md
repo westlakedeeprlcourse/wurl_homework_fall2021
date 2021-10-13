@@ -9,7 +9,6 @@ These locations are marked with `TODO` and are found in the following files:
 - [infrastructure/utils.py](wurl/infrastructure/utils.py)
 - [policies/MLP_policy.py](wurl/policies/MLP_policy.py)
 - [agents/pg_agent.py](wurl/agents/pg_agent.py)
-- [policies/MLP_policy.py](wurl/policies/MLP_policy)
 
 The script to run the experiments is found in [scripts/run_hw1.py](wurl/scripts/run_hw1.py)
 
@@ -112,7 +111,7 @@ The precision of **b*** and **r*** need only be one significant digit.
 
 Your report should be a document containing
 
-1. All graphs and answers to short explanation questions requested for Experiments 1-4.
+1. All graphs and answers to short explanation questions requested for Experiments 1-2.
 2. All command-line expressions you used to run your experiments.
 
 ### Submitting the code and experiment runs

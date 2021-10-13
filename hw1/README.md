@@ -10,8 +10,7 @@ You need to complete the following files. The relevant sections are marked with 
 - [infrastructure/utils.py](wurl/infrastructure/utils.py)
 - [policies/MLP_policy.py](wurl/policies/MLP_policy.py)
 - [agents/pg_agent.py](wurl/agents/pg_agent.py)
-- [policies/MLP_policy.py](wurl/policies/MLP_policy)
 
 You will also want to look through [scripts/run_hw1.py](wurl/scripts/run_hw1.py), though you will not need to edit this files.
 
-You will be running your policy gradients implementation in five experiments total, investigating the effects of design decisions like reward-to-go estimators, neural network baselines and generalized advantage estimation for variance reduction, and advantage normalization. See the [assignment MarkDown](hw1.md) for more details.
+You will be running your policy gradients implementation in two experiments total, See the [assignment MarkDown](hw1.md) for more details.
