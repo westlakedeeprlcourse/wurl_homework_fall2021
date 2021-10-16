@@ -40,7 +40,9 @@ You may skip those sections that are run only if `nn_baseline` is True;
 
 ## Experiments
 
-**Experiment 1 (CartPole)**. Run multiple experiments with the PG algorithm on the discrete `CartPole-v0` environment, using the following commands:
+### Experiment 1 (CartPole)
+
+Run multiple experiments with the PG algorithm on the discrete `CartPole-v0` environment, using the following commands:
 
 ```
 python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 1000 \
@@ -88,7 +90,9 @@ and more. You can change these as well, but keep them fixed between the 6 experi
 
 - The best configuration of `CartPole` in both the large and small batch cases should converge to a maximum score of 200.
 
-**Experiment 2 (InvertedPendulum).** Run experiments on the `InvertedPendulum-v2` continuous control environment as follows:
+### Experiment 2 (InvertedPendulum)
+
+Run experiments on the `InvertedPendulum-v2` continuous control environment as follows:
 
 ```
 python cs285/scripts/run_hw2.py --env_name InvertedPendulum-v2 \
