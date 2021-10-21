@@ -153,10 +153,9 @@ class RL_Trainer(object):
     ####################################
     ####################################
 
-    def collect_training_trajectories(self, itr, initial_expertdata, collect_policy, batch_size):
+    def collect_training_trajectories(self, itr, collect_policy, batch_size):
         """
         :param itr:
-        :param load_initial_expertdata:  path to expert data pkl file
         :param collect_policy:  the current policy using which we collect data
         :param batch_size:  the number of transitions we collect
         :return:
@@ -165,12 +164,8 @@ class RL_Trainer(object):
             train_video_paths: paths which also contain videos for visualization purposes
         """
 
-        # TODO decide whether to load training data or use the current policy to collect more data
-        # HINT: depending on if it's the first iteration or not, decide whether to either
-                # (1) load the data. In this case you can directly return as follows
-                # ``` return loaded_paths, 0, None ```
-
-                # (2) collect `self.params['batch_size']` transitions
+        # TODO use the current policy to collect more data
+        # HINT: collect `self.params['batch_size']` transitions
 
         # TODO collect `batch_size` samples to be used for training
         # HINT1: use sample_trajectories from utils
