@@ -153,7 +153,7 @@ class RL_Trainer(object):
     ####################################
     ####################################
 
-    def collect_training_trajectories(self, itr, collect_policy, batch_size):
+    def collect_training_trajectories(self, itr, initial_expertdata, collect_policy, batch_size):
         """
         :param itr:
         :param collect_policy:  the current policy using which we collect data
