@@ -45,22 +45,22 @@ You may skip those sections that are run only if `nn_baseline` is True;
 Run multiple experiments with the PG algorithm on the discrete `CartPole-v0` environment, using the following commands:
 
 ```
-python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 1000 \
+python wurl/scripts/run_hw1.py --env_name CartPole-v0 -n 100 -b 1000 \
 -dsa --exp_name q1_sb_no_rtg_dsa
 
-python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 1000 \
+python wurl/scripts/run_hw1.py --env_name CartPole-v0 -n 100 -b 1000 \
 -rtg -dsa --exp_name q1_sb_rtg_dsa
 
-python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 1000 \
+python wurl/scripts/run_hw1.py --env_name CartPole-v0 -n 100 -b 1000 \
 -rtg --exp_name q1_sb_rtg_na
 
-python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 5000 \
+python wurl/scripts/run_hw1.py --env_name CartPole-v0 -n 100 -b 5000 \
 -dsa --exp_name q1_lb_no_rtg_dsa
 
-python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 5000 \
+python wurl/scripts/run_hw1.py --env_name CartPole-v0 -n 100 -b 5000 \
 -rtg -dsa --exp_name q1_lb_rtg_dsa
 
-python cs285/scripts/run_hw2.py --env_name CartPole-v0 -n 100 -b 5000 \
+python wurl/scripts/run_hw1.py --env_name CartPole-v0 -n 100 -b 5000 \
 -rtg --exp_name q1_lb_rtg_na
 ```
 
@@ -95,7 +95,7 @@ and more. You can change these as well, but keep them fixed between the 6 experi
 Run experiments on the `InvertedPendulum-v2` continuous control environment as follows:
 
 ```
-python cs285/scripts/run_hw2.py --env_name InvertedPendulum-v2 \
+python wurl/scripts/run_hw1.py --env_name InvertedPendulum-v2 \
 --ep_len 1000 --discount 0.9 -n 100 -l 2 -s 64 -b <b*> -lr <r*> -rtg \
 --exp_name q2_b<b*>_r<r*>
 ```
